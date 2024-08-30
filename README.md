@@ -1,9 +1,3 @@
-Stworzenie pliku README jest kluczowe dla zapewnienia użytkownikom jasnych instrukcji i informacji na temat projektu. Oto propozycja pliku README dla Twojego projektu "NN Function Approximation" na GitHubie.
-
----
-
-### **README.md**
-
 # **NN Function Approximation**
 
 ## **Opis projektu**
@@ -88,5 +82,3 @@ DominikMML - [GitHub Profile](https://github.com/DominikMML)
 - Pamiętaj, aby regularnie aktualizować plik README o nowe funkcje lub zmiany w projekcie.
 - Możesz dodać więcej szczegółów w sekcji "Przykładowy kod" oraz "Instalacja" w zależności od złożoności projektu.
 - Rozważ dodanie sekcji "Często zadawane pytania (FAQ)" lub "Znane problemy" w przyszłości, jeśli projekt będzie rozwijał się dalej i przyciągał więcej użytkowników.
-
-Mam nadzieję, że ten plik README pomoże jasno przedstawić Twój projekt innym użytkownikom GitHuba!
