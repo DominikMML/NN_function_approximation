@@ -45,28 +45,6 @@ Po uruchomieniu Jupyter Notebook, przejdź przez kroki opisane w notatnikach, ab
 3. **Ewaluacja modeli**: Ocena skuteczności modeli za pomocą różnych metryk, takich jak MSE, RMSE i R².
 4. **Wizualizacja wyników**: Zobacz, jak dobrze sieć neuronowa aproksymuje funkcję, wizualizując predykcje modelu w porównaniu do rzeczywistych wartości.
 
-## **Przykładowy kod**
-
-Poniżej znajduje się przykładowy kod do załadowania modelu i wykonania predykcji:
-
-```python
-import torch
-from src.model import NeuralNetworkModel
-
-# Załaduj zapisany model
-model = NeuralNetworkModel()
-model.load_state_dict(torch.load('models/model.pth'))
-model.eval()
-
-# Wykonaj predykcje
-x_test = torch.linspace(-10, 10, steps=100).unsqueeze(1)
-predictions = model(x_test).detach().numpy()
-```
-
-## **Wkład i rozwój**
-
-Jeśli masz pomysły na usprawnienie projektu lub chcesz zgłosić błąd, otwórz zgłoszenie (issue) lub stwórz nową gałąź (branch) i wyślij pull request.
-
 ## **Licencja**
 
 Ten projekt jest objęty licencją MIT. Szczegóły można znaleźć w pliku LICENSE.
